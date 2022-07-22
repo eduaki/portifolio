@@ -18,6 +18,7 @@ import {
 import {SiStyledcomponents} from 'react-icons/si'
 
 import { Container, TecBlock } from './styles';
+import Skills from '../../components/Skills';
 
 function Home() {
   return(
@@ -146,7 +147,9 @@ function Home() {
         </div>
 
       </div>
-     
+
+      <Skills/>
+           
     </Container>
   );
 }

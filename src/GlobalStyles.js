@@ -7,10 +7,19 @@ export const Style = createGlobalStyle`
   padding: 0;
   box-sizing: border-box;
 }
-*, html{
+html{
   color: var(--off_white);
-  background-color: var(--primary);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  background: hsla(218, 28%, 13%, 1);
+
+  background: linear-gradient(90deg, #0F326F 0%, hsla(218, 28%, 13%, 1)  100%);
+
+  background: -moz-linear-gradient(90deg, #0F326F 0%, hsla(218, 28%, 13%, 1)  100%);
+
+  background: -webkit-linear-gradient(90deg, #0F326F 0%, hsla(218, 28%, 13%, 1)  100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#181F2B", endColorstr="#0B3A8B", GradientType=1 );
 }
 
 *, li, ul, a{

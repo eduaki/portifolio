@@ -1,6 +1,22 @@
 import React from 'react';
-import TecBlock from '../../components/TecBlock';
-import { Container } from './styles';
+
+import {
+  IoLogoJavascript,
+  IoLogoReact ,
+  IoLogoPython ,
+  IoLogoSass ,
+  IoLogoHtml5, 
+  IoLogoCss3,
+  IoLogoFirebase,
+} from 'react-icons/io5'
+import {
+  DiGit,
+  DiJava,
+  DiMysql,
+  DiNodejsSmall
+} from 'react-icons/di'
+
+import { Container, TecBlock } from './styles';
 
 function Home() {
   return(
@@ -19,7 +35,97 @@ function Home() {
       </div>
 
       <div className='tec-wrapper'>
-        
+        <div className='title'>
+          <h1>Tecnologias</h1>
+            <div className='detail line1'/>
+            <div className='detail line2'/>
+        </div>
+        <div className='tec-list'>
+          <TecBlock>
+            <div className='title'>
+              <IoLogoJavascript size={80}/>
+              <h2>JavaScript</h2>
+            </div>
+          </TecBlock>
+
+          <TecBlock>
+            <div className='title'>
+              <IoLogoPython size={80}/>
+              <h2>Python</h2>
+            </div>
+          </TecBlock>
+
+          <TecBlock>
+            <div className='title'>
+              <DiJava size={80}/>
+              <h2>Java</h2>
+            </div>
+          </TecBlock>
+
+          <TecBlock>
+            <div className='title'>
+              <DiNodejsSmall size={80}/>
+              <h2>NodeJS</h2>
+            </div>
+          </TecBlock>
+
+          <TecBlock>
+            <div className='title'>
+              <DiMysql size={80}/>
+              <h2>MySQL</h2>
+            </div>
+          </TecBlock>
+
+          <TecBlock>
+            <div className='title'>
+              <IoLogoFirebase size={80}/>
+              <h2>Google firebase</h2>
+            </div>
+          </TecBlock>
+
+          <TecBlock>
+            <div className='title'>
+              <IoLogoReact size={80}/>
+              <h2>React</h2>
+            </div>
+          </TecBlock>
+
+          <TecBlock>
+            <div className='title'>
+              <IoLogoReact size={80}/>
+              <h2>React native</h2>
+            </div>
+          </TecBlock>
+
+          <TecBlock>
+            <div className='title'>
+              <IoLogoHtml5 size={80}/>
+              <h2>Html5</h2>
+            </div>
+          </TecBlock>
+
+          <TecBlock>
+            <div className='title'>
+              <IoLogoCss3 size={80}/>
+              <h2>CSS3</h2>
+            </div>
+          </TecBlock>
+
+          <TecBlock>
+            <div className='title'>
+              <IoLogoSass size={80}/>
+              <h2>SASS</h2>
+            </div>
+          </TecBlock>
+
+          <TecBlock>
+            <div className='title'>
+              <DiGit size={80}/>
+              <h2>Git</h2>
+            </div>
+          </TecBlock>
+        </div>
+
       </div>
      
     </Container>

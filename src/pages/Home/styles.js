@@ -26,29 +26,31 @@ export const Container = styled.div`
 
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-around;
 
-    div{
+  
+    .all-wrapper{
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
 
-      .title{
-        display: block;
-        margin-top: -150px;
-        margin-bottom: 30px;
-      }
-
+    .title{
+      margin-top: -40px;
       h2{
-        text-align: center;
         font-size: 40px;
       }
-
-      p{
-        font-size: 18px;
-      }
-      
+      margin-bottom: 15px;
     }
+    .text{
+      align-self: center;
+      justify-self: center;
+      text-align: center;
+      font-weight: bolder;
+    }
+    
 
     img{
       width: 350px;
@@ -56,6 +58,10 @@ export const Container = styled.div`
       border-top-right-radius: 5%;
       border-bottom-left-radius: 5%;
       border-bottom-right-radius: 25%;
+
+      border-left: 8px solid #f23f84;
+      border-bottom: 5px solid #f23f84;
+      margin-right: 15px;
     }
   }
 

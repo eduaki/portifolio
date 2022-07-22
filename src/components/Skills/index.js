@@ -62,12 +62,6 @@ function Skills() {
               <h2>Inglês</h2>
             </div>
           </Block>
-          <Block>
-            <div className='title'>
-              <MdLanguage size={80}/>
-              <h2>Japonês</h2>
-            </div>
-          </Block>
         </div>
         
 

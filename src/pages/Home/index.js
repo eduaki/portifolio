@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {
   IoLogoJavascript,
   IoLogoReact ,
@@ -8,6 +7,7 @@ import {
   IoLogoHtml5, 
   IoLogoCss3,
   IoLogoFirebase,
+  IoLogoElectron,
 } from 'react-icons/io5'
 import {
   DiGit,
@@ -16,9 +16,9 @@ import {
   DiNodejsSmall
 } from 'react-icons/di'
 import {SiStyledcomponents} from 'react-icons/si'
-
 import { Container, TecBlock } from './styles';
 import Skills from '../../components/Skills';
+import Contact from '../Contact';
 
 function Home() {
   return(
@@ -103,6 +103,13 @@ function Home() {
             </div>
           </TecBlock>
 
+          <TecBlock>{/**electnon*/}
+            <div className='title'>
+              <IoLogoElectron size={80}/>
+              <h2>Electron</h2>
+            </div>
+          </TecBlock>
+
           <TecBlock>{/**react native */}
             <div className='title'>
               <IoLogoReact size={80}/>
@@ -149,7 +156,19 @@ function Home() {
       </div>
 
       <Skills/>
-           
+      
+      <div className='publi'>
+        <div>
+          <h3 className='text'>Quer saber um pouco mais sobre mim e meus trabalhos? conheça meu <a rel='noreferrer' target='_blank' href="https://github.com/eduaki">github</a>!</h3>
+        </div>
+
+        <Contact />
+      </div>
+
+      <footer>
+        <p>todos direitos reservados @ 2022 - desenvolvido por <a rel='noreferrer' target='_blank' href="https://github.com/eduaki">akidev</a></p>
+      </footer>
+
     </Container>
   );
 }

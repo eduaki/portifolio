@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  padding: 15px;
+  padding-top: 15px;
 
   .detail{
     width: 100px;
@@ -85,6 +85,50 @@ export const Container = styled.div`
       list-style: none;
 
       width: 1200px;
+    }
+  }
+
+  .publi{
+    background-color: var(--secondary);
+    /* height: 500px; */
+    div{
+      margin: 0 auto;
+      max-width: 1200px;
+      padding: 15px;
+    }
+    
+    h3{
+      font-size: 25px;
+
+      a{
+        color: var(--off_white);
+        text-decoration-color: var(--red);
+        text-decoration-line: underline;
+
+        :hover{
+          color:var(--red);
+          text-decoration-color: var(--off_white);
+          text-decoration-line: underline;
+        }
+      }
+    }
+  }
+
+  footer{
+    background: var(--tertiary);
+    padding: 10px;
+    text-align: center;
+
+    a{
+      color: var(--off_white);
+      text-decoration-color: var(--red);
+      text-decoration-line: underline;
+
+      :hover{
+        color:var(--red);
+        text-decoration-color: var(--off_white);
+        text-decoration-line: underline;
+      }
     }
   }
 

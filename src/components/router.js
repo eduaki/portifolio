@@ -10,7 +10,6 @@ export default function Router(){
       <Routes>
         <Route path='/' element={<App />}/>
         <Route index element={<Home/>}/>
-        <Route path='contact' element={<Contact/>}/>
       </Routes>
     </BrowserRouter>
   )

@@ -18,10 +18,10 @@ function Contact() {
         </div>
 
         <div className='input-wrapper'>  
-          <input type={'text'} placeholder='nome completo*'/>
-          <input type={'email'} placeholder='e-mail*'/>
+          <input type={'text'} onChange={e => setName(e.target.value)} value={name} placeholder='nome completo*'/>
+          <input type={'email'} onChange={e => setEmail(e.target.value)} value={email} placeholder='e-mail*'/>
 
-          <textarea placeholder='sua mensagem...'/>
+          <textarea placeholder='sua mensagem...' onChange={e => setMensage(e.target.value)} value={mensage}/>
 
           <button>Enviar</button>
         </div>

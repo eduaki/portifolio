@@ -21,10 +21,13 @@ import Skills from '../../components/Skills';
 import Contact from '../Contact';
 
 function Home() {
+
+  var ftPerfil = 'https://cdn2.f-cdn.com/ppic/195783297/logo/49838260/GJUTC/profile_logo_LIXNN_24cfd4b64982821159a9815e812639d0.jpg?image-optimizer=force&width=280 1x, https://cdn2.f-cdn.com/ppic/195783297/logo/49838260/GJUTC/profile_logo_LIXNN_24cfd4b64982821159a9815e812639d0.jpg?image-optimizer=force&width=560'
+
   return(
     <Container>
       <div className='info-wrapper'>
-        <img alt='face_image' src="https://cdn2.f-cdn.com/ppic/195783297/logo/49838260/GJUTC/profile_logo_LIXNN_24cfd4b64982821159a9815e812639d0.jpg?image-optimizer=force&width=280 1x, https://cdn2.f-cdn.com/ppic/195783297/logo/49838260/GJUTC/profile_logo_LIXNN_24cfd4b64982821159a9815e812639d0.jpg?image-optimizer=force&width=560"/>
+        <img alt='face_image' src={ftPerfil}/>
         
         <div className='all-wrapper'>
           <div className='title'>

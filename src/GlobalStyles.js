@@ -36,7 +36,7 @@ html{
   --primary: #181f2b;
   --secondary: #09101c;
   --tertiary: #010205;
-  --off_white: #f2f2f2;
+  --off_white: #ebebeb;
   --red: #f23f84;
 }
 
